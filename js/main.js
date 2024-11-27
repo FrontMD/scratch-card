@@ -21,7 +21,7 @@
         brush        = new Image();
         
     // base64 Workaround because Same-Origin-Policy
-    image.src = '../img/top.png';
+    image.src = 'img/top.png';
     image.onload = function() {
       ctx.drawImage(image, 0, 0, canvasWidth, canvasHeight);
       scratchCardImg.style.display = 'block'
